@@ -5,7 +5,7 @@ import org.junit.jupiter.api.io.TempDir;
 
 public class Test1 {
 //    @TempDir
-    String file = "ABCDEF";
+    String file = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     @Test
     public void test2(){
@@ -15,7 +15,7 @@ public class Test1 {
        }
 
         System.out.println();
-        System.out.println("hello Test");
+        System.out.println("hello Test" + file);
 
     }
 }
