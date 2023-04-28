@@ -1,12 +1,9 @@
 package com.java.test;
-
-
 import myclasses.loader.ClassPathClassLoader;
 import myclasses.loader.MyClassLoader;
 import org.junit.jupiter.api.Test;
 
 public class Test3{
-
 
     @Test
     public void testLoader()throws Exception{
